@@ -1,0 +1,15 @@
+@use './modules/fonts';
+@use './modules/header';
+
+
+* {
+    font-family: 'Circular Light', sans-serif;
+}
+
+.headBold{
+    font-family: 'Circular Book';
+}
+
+.headSuperBold{
+    font-family: 'Circular Bold';
+}

@@ -1,0 +1,12 @@
+{
+  "name": "airbnb",
+  "version": "1.0.0",
+  "description": "Airbnb Frontend",
+   "scripts": {
+    "dev": "npx tailwindcss -i ./src/tailwindcss/tailwindcss.css -o ./public/libraries/css/main.css --watch",
+    "sass": "sass --no-source-map --watch ./src/scss/mixin.scss ./public/libraries/css/mixin.css"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.15"
+  }
+}

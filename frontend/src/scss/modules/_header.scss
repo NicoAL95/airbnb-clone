@@ -1,0 +1,27 @@
+// Header
+
+.navOn::after {
+    content:"";
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    height: 1.7px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    width: 12%;
+}
+
+.navOff:hover::after {
+    content:"";
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    height: 1.7px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    width: 5%;
+}
+
+// End Header
